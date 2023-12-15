@@ -1,0 +1,175 @@
+#Python HOME
+print("Hello, World!")
+
+#Python Syntax
+#1
+if 5 > 2:
+ print("Five is greater than two!") 
+if 5 > 2:
+  print("Five is greater than two!")
+
+#2
+x = 5
+y = "Hello, World!"
+
+#Python Comment
+#This is a comment.
+print("Hello, World!")
+
+#Python Variables
+#1
+x = 5
+y = "John"
+print(x)
+print(y)
+
+#2
+x = 4       # x is of type int
+x = "Sally" # x is now of type str
+print(x)
+
+#3
+x = str(3.0)    # x will be '3.0' terserah
+y = int(3)    # y will be 3 di bulat
+z = float(3)  # z will be 3.0 di pecah
+print(x,y,z)
+print(type(x))
+print(type(y))
+print(type(z))
+
+#4
+x = 5
+y = "John"
+print(type(x))
+print(type(y))
+
+#5
+x = "John"
+# is the same as
+x = 'John'
+
+#6
+a = 4
+A = "Sally"
+#A will not overwrite a
+
+#Variable Names
+#1
+myvar = "John"
+my_var = "John"
+_my_var = "John"
+myVar = "John"
+MYVAR = "John"
+myvar2 = "John"
+
+print(myvar)
+print(my_var)
+print(_my_var)
+print(myVar)
+print(MYVAR)
+print(myvar2)
+
+#2
+myVariableName = "John, john"
+print(myVariableName)
+
+#3
+MyVariableName = "John, john"
+print(MyVariableName)
+
+#4
+my_variable_name = "John, john"
+print(my_variable_name)
+
+#Python Variables - Assign Multiple Values
+#1
+x, y, z = "Orange", "Banana", "Cherry"
+
+print(x)
+print(y)
+print(z)
+
+#2
+x = y = z = "Orange"
+
+print(x)
+print(y)
+print(z)
+
+#3
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
+
+#Python - Output Variables
+#1
+x = "Python is cool"
+print(x)
+
+#2
+x = "Python"
+y = "is"
+z = "handsome"
+print(x, y, z)
+
+
+#3
+x = "Python "
+y = "is "
+z = "sigma"
+print(x + y + z)
+
+#4
+x = 5
+y = 10
+print(x + y)
+print(x - y)
+print(x * y)
+print(x / y)
+
+#5
+x = 5
+y = "John"
+print(x, y)
+
+#Python - Global Variables
+#1
+x = "awesome"
+
+def myfunc():
+  print("Python is " + x)
+
+myfunc()
+
+#2
+x = "hmmm"
+
+def myfunc():
+  x = "eyyo"
+  print("Python is " + x)
+
+myfunc()
+
+print("Python is " + x)
+
+#3
+def myfunc():
+  global x
+  x = "spectacular"
+
+myfunc()
+
+print("Python is " + x)
+
+#4
+x = "awesome"
+
+def myfunc():
+  global x
+  x = "fantastic"
+
+myfunc()
+
+print("Python is " + x)
